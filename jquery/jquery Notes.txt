@@ -1,0 +1,39 @@
+Indexdb with Jquery
+
+When opening indexdb we use the code
+
+
+
+var request =indexdDB.open('THe name of the database',4)
+
+The {4} means the version  of the web browser used
+
+
+
+If there is an upgrade in the database we use the code the variabe name to create the indexbd and weith the request method or attribute
+
+
+request.onupgradeneeded and a function in it
+
+The syantax is
+
+            request.onupgradeneeded =function(e){
+                var db = e.target.result;
+                console.log("Data base creayed successfully")
+            }
+
+For handling of error we use the word onerror and on
+
+
+When talking to the database we use the key word transaction
+
+The transaction syntax
+
+var transaction =db.transaction(['The name of the db','The ,method of the file'])
+
+
+Methods of the file are;
+
+readwrite
+read
+write

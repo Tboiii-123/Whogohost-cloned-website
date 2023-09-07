@@ -1,0 +1,341 @@
+
+/* body{
+    padding-bottom: 1000px;
+} */
+#header{
+    background-color: darkblue;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+    
+}
+#header{
+    display: flex;
+    list-style: none;
+    color: white;  
+    gap: 400px;
+    
+}
+
+.list{
+    padding-left: 20px;
+    
+   
+}
+
+.list_side{
+    color: white; 
+    font-size:small;
+    display: flex;
+    margin-top: 20px;   
+}
+#make{
+    padding-left: 20px;
+}
+
+#secondheader{
+    margin-top: -20px;
+    background-color: blue;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#blist2{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    color: white;
+    gap: 10px;
+
+}
+#list2{
+    padding-left: 30px;
+}
+
+#menu_bar{
+    display: none;
+}
+
+
+
+@media(max-width:890px){
+   
+
+#list2{
+    display: none;
+} 
+
+}
+#body1{
+    color: white;
+    margin-top: -20px;
+    background-color: blue;
+    height: 450px;
+    text-align: center;
+}
+
+
+#wordpress{
+    flex-direction: row;
+    padding-top: 90px;
+
+}
+#firstinput{
+    width: 70%;
+     height:50px;
+      background-color:blue;
+      border-radius: 6px;
+      border-color: white;
+      font-size: 25px;
+      font-weight: bolder;
+      color: black;
+      padding-left: 25px;
+      
+}
+#searchimage{
+height: 40px;
+position: relative;
+right:5%;
+top: 4%;
+}
+#box{
+    display: flex;
+    justify-content: space-around; 
+    background-color:#f5f5f5;
+    margin-bottom: -40px;
+    margin-right: 20px;
+    
+    
+    
+
+ }
+
+ 
+@media (max-width:768px){
+*{
+    padding: 0;
+    margin: 0;
+}
+#box{
+    
+    display: block;
+    background-color:white;
+    margin-top: 200px;
+       
+}
+
+} 
+
+#box1{
+    /* background-color:white; */
+    background-color:white;
+    height: 300px;
+    width: 360px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-top: -100px;
+}
+#box1 .button{
+    padding: 10px 50px;
+     margin-top: -50px;
+    border-radius:8px;
+    background-color:#f5f5f5;
+    margin-left: 30px;
+} 
+#box1 .button:hover{
+    background-color: grey;
+}
+h4{
+    font-weight: normal;
+}
+
+#secondbody{
+    background-color: #f5f5f5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 30px;
+    
+
+}
+
+#image{
+    
+    display: flex;
+     margin-left: 10%;
+}
+
+#imageinner{
+    padding-left: 0px;
+}
+
+@media (max-width:768px){
+
+#image{
+    
+ margin-left: 5%;
+ 
+ 
+ 
+    
+}
+#imageinner{
+padding-left: 0px;
+height:70px ;
+width: 80px;
+}
+}
+.thirdbody{
+    padding-top: 10px;
+}
+
+.fourthbody{
+display:flex;
+margin-top: 70px;
+}
+
+.innerfourthbody{
+    padding-left: 70px;
+    width: 200%;
+}
+
+#fourthbodypic{
+    height: 70px;
+    padding-left: 100px;
+}
+
+@media (max-width:768px){
+
+.fourthbody{
+display:block;
+}
+
+.innerfourthbody{
+    padding-left: 70px;
+    padding-top: 40px;
+    width: 80%;
+    margin-left: 0px;
+}
+
+
+}
+
+#fifthbody{
+    background-color: #f5f5f5;
+    display: flex;
+    padding:100px;
+}
+
+
+#fifthinput{
+    padding: 14px 40px;
+    background-color:skyblue;
+    border-radius: 10px;
+}
+
+#client{
+    padding-left: 60px;
+}
+
+@media(max-width:768px){
+    
+#fifthbody{
+    background-color: #f5f5f5;
+    display: block;
+    padding:100px;
+    margin-left: 10px;
+}
+
+#client{
+    padding-top: 30px;
+    margin-left: -100px;
+    
+}
+#innerfifthbody{
+    margin-left: -50px;
+}
+
+
+
+}
+
+
+#sixthbody{
+margin-left: 50px;
+
+margin-bottom: 50px;
+margin-top: 30px;
+display: flex;
+}
+#sixbutton{
+    border-radius: 10px;
+    border-style:groove;
+    width: 160px;
+    height: 46px;
+    cursor: pointer;
+    
+}
+
+#sixthpic{
+padding-left: 200px;
+padding-top:60px; 
+height:300px;
+}
+@media(max-width:768px){
+
+#sixthbody{
+margin-left: 50px;
+display: block;
+}
+
+#sixthpic{
+padding-left: 10px;
+
+}
+}
+.lastbody{
+    background-color: black;
+    padding-top: 50px;
+    
+}
+
+#innerlastbody{
+    display: flex;
+    padding-left: 130px;
+}
+
+
+.lastlist{
+    
+    display: flex;
+    padding-left: 150px;
+}
+.lastlist li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+@media(max-width:768px){
+
+#innerlastbody{
+    display: block;
+    
+}
+
+
+
+.lastlist{
+    
+    display: none;
+
+}
+
+
+
+}
+
+
+
+
